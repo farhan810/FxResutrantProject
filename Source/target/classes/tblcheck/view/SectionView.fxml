@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="pnRoot" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="465.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tblcheck.view.SectionView">
+    <children>
+        <ScrollPane fx:id="pnScroll" layoutX="2.0" layoutY="60.0" prefHeight="339.0" prefWidth="596.0" style="-fx-background-color: transparent">
+            <content>
+                <AnchorPane prefHeight="315.0" prefWidth="575.0">
+                    <children>
+                        <GridPane fx:id="pnAssignments" layoutX="93.0" layoutY="4.0" prefHeight="309.0" prefWidth="575.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                            <columnConstraints>
+                                <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="190.0" minWidth="10.0" prefWidth="89.0" />
+                                <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="414.0" minWidth="10.0" prefWidth="359.0" />
+                                <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="158.0" minWidth="10.0" prefWidth="129.0" />
+                            </columnConstraints>
+                            <rowConstraints>
+                                <RowConstraints maxHeight="180.0" minHeight="10.0" prefHeight="77.0" vgrow="SOMETIMES" />
+                                <RowConstraints maxHeight="315.0" minHeight="10.0" prefHeight="296.0" vgrow="SOMETIMES" />
+                            </rowConstraints>
+                            <children>
+                                <Rectangle arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="32.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+                                <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0" GridPane.columnIndex="1">
+                                    <children>
+                                        <ComboBox prefHeight="25.0" prefWidth="138.0" />
+                                        <ComboBox prefHeight="25.0" prefWidth="182.0" />
+                                    </children>
+                                </HBox>
+                                <HBox alignment="CENTER" prefHeight="52.0" prefWidth="101.0" spacing="10.0" GridPane.columnIndex="2">
+                                    <children>
+                                        <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="60.0" text="Save" />
+                                        <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="60.0" text="Remove" />
+                                    </children>
+                                </HBox>
+                                <!--<TableView prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1">-->
+                                <!--<columns>-->
+                                <!--<TableColumn prefWidth="75.0" text="C1" />-->
+                                <!--<TableColumn prefWidth="75.0" text="C2" />-->
+                                <!--</columns>-->
+                                <!--</TableView>-->
+                            </children>
+                        </GridPane>
+                    </children>
+                </AnchorPane>
+            </content>
+        </ScrollPane>
+            <HBox alignment="CENTER" prefHeight="50.0" prefWidth="600.0" spacing="15.0">
+                <children>
+                    <Label text="Number of sections" />
+                    <ChoiceBox fx:id="cmbSections" prefHeight="25.0" prefWidth="67.0" />
+                    <Button fx:id="btnSetSection" mnemonicParsing="false" prefHeight="25.0" prefWidth="42.0" text="OK" />
+                </children>
+            </HBox>
+        <Button fx:id="btnAdd" layoutX="426.0" layoutY="420.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="62.0" text="Add" />
+        <Button fx:id="btnClose" layoutX="509.0" layoutY="420.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="62.0" text="Close" />
+    </children>
+</Pane>

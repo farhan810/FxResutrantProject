@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane fx:id="pnRoot" prefHeight="400.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tblcheck.view.LayoutSelector">
+   <children>
+      <ScrollPane fx:id="pnScroll" style="-fx-background-color: transparent;" layoutX="2.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="340.0" prefWidth="476.0">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="338.0" prefWidth="462.0">
+               <children>
+                  <ListView fx:id="lstLayouts" style="-fx-background-color: transparent;" layoutX="14.0" layoutY="14.0" prefHeight="288.0" prefWidth="575.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
+               </children>
+            </AnchorPane>
+        </content>
+      </ScrollPane>
+      <Button fx:id="btnOK" layoutX="313.0" layoutY="356.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="60.0" text="OK" />
+      <Button fx:id="btnCancel" layoutX="392.0" layoutY="356.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="60.0" text="Cancel" />
+   </children>
+</Pane>

@@ -1,0 +1,4 @@
+Manifest-Version: 0.2.0
+Created-By: 1.8.0_72 (Oracle Corporation)
+Main-Class: tablecheck.main.Main
+

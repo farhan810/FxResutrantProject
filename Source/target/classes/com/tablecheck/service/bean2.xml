@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+	<bean id="sController" class="com.tablecheck.service.controller.ServiceController">
+	
+	<!-- <property name="hostName" value="farhanHosel"></property>
+	<property name="city" value="karachi"></property>
+	</bean>
+	"byName"
+	<bean id="mahi" class="firstCore.edurka.Student" autowire="byType">
+	<property name="name" value="khayam"></property>
+	<property name="id" value="293"></property>
+	</bean>
+	
+	<bean id="book" class="firstCore.edurka.Book">
+	<property name="name" value="c++"></property>
+	<property name="author" value="bejarne strostrups"></property>
+	<property name="price" value="35.2"></property>
+	<property name="noOfPage" value="21"></property>
+	</bean>
+	
+	<bean id="ebook" class="firstCore.edurka.EBook" parent="book">
+	<property name="sizeMb" value="3.44"></property>
+	</bean> -->
+	</bean>
+</beans>

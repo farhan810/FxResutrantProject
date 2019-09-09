@@ -1,0 +1,321 @@
+/* General context menu & menu item */
+.context-menu {
+    -fx-skin: "com.sun.javafx.scene.control.skin.ContextMenuSkin";
+    -fx-background-color: white;
+    /*-fx-text-fill: white;*/
+    /*-fx-background-insets: 0, 1, 2;*/
+    /*-fx-background-radius: 0 6 6 6, 0 5 5 5, 0 4 4 4;*/
+    /*-fx-padding: 0.333333em 0.083333em 0.666667em 0.083333em; !* 4 1 8 1 *!*/
+    -fx-padding: 0em 0em 0em 0em;
+}
+
+.menu-item {
+    /*-fx-background-color: white;*/
+    /*-fx-border-color: red;*/
+    -fx-padding: 0em 0em 0em 0em;
+    /*-fx-border-color: #DDDEE2 transparent #B9C0C8 transparent;*/
+    -fx-border-width: 3px;
+}
+
+.menu-item:focused {
+    -fx-background: -fx-accent;
+    -fx-background-color: #7092BE;
+    /*-fx-text-fill: -fx-selection-bar-text;*/
+}
+
+.menu-item .label {
+    /*-fx-text-fill: black;*/
+    -fx-padding: 4px 4px 4px 4px;
+    -fx-font-size: 14px;
+    -fx-pref-width: 80px;
+    -fx-pref-height: 27px;
+}
+
+/* End general menu */
+
+/* Option context menu */
+.ctx-menu .menu-item {
+    -fx-background: -fx-accent;
+    -fx-background-color: #E5E5E5;
+}
+
+.ctx-menu .menu-item:focused {
+    -fx-background: -fx-accent;
+    -fx-background-color: #7092BE;
+}
+
+.ctx-menu .menu-item .label {
+    -fx-pref-width: 160px;
+    -fx-padding: 4px 6px 4px 6px;
+    /*-fx-text-fill: blue;*/
+}
+
+.ctx-menu .menu-item:focused .label {
+    -fx-text-fill: white;
+}
+
+.actionBtn {
+    -fx-alignment: center;
+    -fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.actionBtn:hover {
+    -fx-alignment: center;
+    -fx-background-color: linear-gradient(#2A5058, #61a2b1);
+}
+.actionBtn.activated {
+    -fx-alignment: center;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: #F5C739;
+    -fx-effect: none;
+}
+.label-text {
+    -fx-text-alignment: center;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+.link-text {
+    -fx-text-alignment: center;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+    -fx-effect: dropshadow( gaussian , rgba(255,255,255,0.5) , 0,0,0,1 );
+}
+/* End Option context menu */
+.lbl-status-long {
+    -fx-pref-width: 140px;
+    -fx-alignment: center;
+}
+.lbl-status {
+    -fx-pref-width: 80px;
+    -fx-alignment: center;
+}
+.pnl-status.connected {
+    -fx-background-color: lime;
+}
+.pnl-status.connected .lbl-status {
+    -fx-fill: #993F00;
+}
+
+.pnl-status.disconnected {
+    -fx-background-color: red;
+}
+.pnl-status.disconnected .lbl-status {
+    -fx-fill: white;
+}
+pnl-status_lbl-status-long{
+	-fx-background-color: lime;
+	-fx-text-fill: white;
+}
+
+/* Buttons */
+.button.activated {
+    -fx-background-color: yellow;
+}
+
+/* End buttons */
+
+/* Table */
+
+/*.tbl-table {*/
+    /*-fx-border-color: red;*/
+    /*-fx-border-width: 2px;*/
+/*}*/
+.tbl-table .text {
+    -fx-font-size: 14px;
+    -fx-fill: black;
+}
+.text{
+	-fx-text-alignment: center ;
+    -fx-wrap-text: true ;
+    -fx-line-spacing: -6px;	
+}
+
+.tbl-label {
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+}
+.tbl-label.no-border {
+    -fx-border-width: 0px;
+}
+
+.tbl-wall .rect {
+    -fx-fill: black;
+    -fx-stroke: black;
+    -fx-stroke-width: 1px;
+}
+
+.tbl-stairs .rect {
+    -fx-background-color: white;
+    -fx-fill: white;
+}
+/* End Table */
+
+/* Table context menu */
+.section-0 {
+    -fx-border-color: #DDDEE2 transparent #B9C0C8 transparent;
+    /*-fx-stroke-width: 4;*/
+    /*-fx-stroke: #DDDEE2 transparent #B9C0C8 transparent;*/
+}
+
+.section-1 {
+    -fx-border-color: #F22613;
+    -fx-stroke-width: 4;
+    -fx-stroke: #F22613;
+}
+
+.section-2 {
+    -fx-border-color: #C8F7C5;
+    -fx-stroke-width: 4;
+    -fx-stroke: #C8F7C5;
+}
+
+.section-3 {
+    -fx-border-color: #C0392B;
+    -fx-stroke-width: 4;
+    -fx-stroke: #C0392B;
+}
+
+.section-4 {
+    -fx-border-color: #6C7A89;
+    -fx-stroke-width: 4;
+    -fx-stroke: #6C7A89;
+}
+
+.section-5 {
+    -fx-border-color: #663399;
+    -fx-stroke-width: 4;
+    -fx-stroke: #663399;
+}
+
+.section-6 {
+    -fx-border-color: #BE90D4;
+    -fx-stroke-width: 4;
+    -fx-stroke: #BE90D4;
+}
+
+.section-7 {
+    -fx-border-color: #ABB7B7;
+    -fx-stroke-width: 4;
+    -fx-stroke: #ABB7B7;
+}
+
+.section-8 {
+    -fx-border-color: #C5EFF7;
+    -fx-stroke-width: 4;
+    -fx-stroke: #C5EFF7;
+}
+
+.section-9 {
+    -fx-border-color: #4183D7;
+    -fx-stroke-width: 4;
+    -fx-stroke: #4183D7;
+}
+
+.section-10 {
+    -fx-border-color: #36D7B7;
+    -fx-stroke-width: 4;
+    -fx-stroke: #36D7B7;
+}
+
+.section-11 {
+    -fx-border-color: #96281B;
+    -fx-stroke-width: 4;
+    -fx-stroke: #96281B;
+}
+
+.section-12 {
+    -fx-border-color: #2ECC71;
+    -fx-stroke-width: 4;
+    -fx-stroke: #2ECC71;
+}
+
+.section-13 {
+    -fx-border-color: #1E824C;
+    -fx-stroke-width: 4;
+    -fx-stroke: #1E824C;
+}
+
+.section-14 {
+    -fx-border-color: #F2784B;
+    -fx-stroke-width: 4;
+    -fx-stroke: #F2784B;
+}
+
+.section-15 {
+    -fx-border-color: #F9690E;
+    -fx-stroke-width: 4;
+    -fx-stroke: #F9690E;
+}
+
+.section-16 {
+    -fx-border-color: #F9BF3B;
+    -fx-stroke-width: 4;
+    -fx-stroke: #F9BF3B;
+}
+
+.section-17 {
+    -fx-border-color: #DB0A5B;
+    -fx-stroke-width: 4;
+    -fx-stroke: #DB0A5B;
+}
+
+.section-18 {
+    -fx-border-color: #BFBFBF;
+    -fx-stroke-width: 4;
+    -fx-stroke: #BFBFBF;
+}
+
+.section-19 {
+    -fx-border-color: #446CB3;
+    -fx-stroke-width: 4;
+    -fx-stroke: #446CB3;
+}
+
+.section-20 {
+    -fx-border-color: #e9d460;
+    -fx-stroke-width: 4;
+    -fx-stroke: #e9d460;
+}
+
+.section-21 {
+    -fx-border-color: #BF55EC;
+    -fx-stroke-width: 4;
+    -fx-stroke: #BF55EC;
+}
+
+.section-22 {
+    -fx-border-color: #F62459;
+    -fx-stroke-width: 4;
+    -fx-stroke: #F62459;
+}
+
+.section-23 {
+    -fx-border-color: #AEA8D3;
+    -fx-stroke-width: 4;
+    -fx-stroke: #AEA8D3;
+}
+
+.section-24 {
+    -fx-border-color: #FFFF80;
+    -fx-stroke-width: 4;
+    -fx-stroke: #FFFF80;
+}
+
+.section-25 {
+    -fx-border-color: #FFFF00;
+    -fx-stroke-width: 4;
+    -fx-stroke: #FFFF00;
+}
+
+.section-26 {
+    -fx-border-color: #FF5005;
+    -fx-stroke-width: 4;
+    -fx-stroke: #FF5005;
+}
+
+/* End table context menu */

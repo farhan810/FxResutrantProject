@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TableCheck.jnlp">
+  <information>
+    <title>TableCheck</title>
+    <vendor></vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="TableCheck.jar" size="409930" download="eager" />
+    <jar href="lib\gson-2.6.2.jar" size="229650" download="eager" />
+    <jar href="lib\httpclient-4.3.2.jar" size="587762" download="eager" />
+    <jar href="lib\httpclient-4.5.1.jar" size="732765" download="eager" />
+    <jar href="lib\httpcore-4.3.jar" size="282160" download="eager" />
+    <jar href="lib\jackson-annotations-2.8.6.jar" size="55782" download="eager" />
+    <jar href="lib\jackson-core-2.8.6.jar" size="281203" download="eager" />
+    <jar href="lib\jackson-databind-2.8.6.jar" size="1236708" download="eager" />
+    <jar href="lib\javax.mail-api-1.6.0.jar" size="218400" download="eager" />
+    <jar href="lib\jcl-over-slf4j-1.7.22.jar" size="16521" download="eager" />
+    <jar href="lib\jna-4.5.1.jar" size="1440662" download="eager" />
+    <jar href="lib\jul-to-slf4j-1.7.22.jar" size="4596" download="eager" />
+    <jar href="lib\junit-4.12.jar" size="316791" download="eager" />
+    <jar href="lib\log4j-over-slf4j-1.7.22.jar" size="23647" download="eager" />
+    <jar href="lib\logback-classic-1.1.9.jar" size="305150" download="eager" />
+    <jar href="lib\logback-core-1.1.9.jar" size="472639" download="eager" />
+    <jar href="lib\mail-1.4.7.jar" size="521157" download="eager" />
+    <jar href="lib\org-apache-commons-logging.jar" size="60786" download="eager" />
+    <jar href="lib\org-netbeans-modules-java-j2seproject-copylibstask.jar" size="26716" download="eager" />
+    <jar href="lib\slf4j-api-1.7.22.jar" size="41077" download="eager" />
+    <jar href="lib\snakeyaml-1.17.jar" size="273599" download="eager" />
+    <jar href="lib\spring-aop-4.3.6.RELEASE.jar" size="379905" download="eager" />
+    <jar href="lib\spring-beans-4.3.6.RELEASE.jar" size="762701" download="eager" />
+    <jar href="lib\spring-boot-1.4.4.RELEASE.jar" size="662704" download="eager" />
+    <jar href="lib\spring-boot-autoconfigure-1.4.4.RELEASE.jar" size="972665" download="eager" />
+    <jar href="lib\spring-boot-starter-1.4.4.RELEASE.jar" size="2290" download="eager" />
+    <jar href="lib\spring-boot-starter-logging-1.4.4.RELEASE.jar" size="2309" download="eager" />
+    <jar href="lib\spring-boot-starter-tomcat-1.4.4.RELEASE.jar" size="2293" download="eager" />
+    <jar href="lib\spring-boot-starter-web-1.4.4.RELEASE.jar" size="2345" download="eager" />
+    <jar href="lib\spring-context-4.3.6.RELEASE.jar" size="1136805" download="eager" />
+    <jar href="lib\spring-core-4.3.6.RELEASE.jar" size="1117842" download="eager" />
+    <jar href="lib\spring-expression-4.3.6.RELEASE.jar" size="263304" download="eager" />
+    <jar href="lib\spring-web-4.3.6.RELEASE.jar" size="817301" download="eager" />
+    <jar href="lib\spring-webmvc-4.3.6.RELEASE.jar" size="914816" download="eager" />
+    <jar href="lib\tomcat-embed-core-8.5.11.jar" size="3015953" download="eager" />
+    <jar href="lib\tomcat-embed-el-8.5.11.jar" size="239791" download="eager" />
+    <jar href="lib\tomcat-embed-websocket-8.5.11.jar" size="241640" download="eager" />
+  </resources>
+  <application-desc main-class="com.tablecheck.client.main.Main"  name="TableCheck" >
+  </application-desc>
+  <update check="always"/>
+</jnlp>

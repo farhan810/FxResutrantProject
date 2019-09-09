@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-12">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="dist/lib/gson-2.6.2.jar"/>
+	<classpathentry kind="lib" path="dist/lib/httpclient-4.3.2.jar"/>
+	<classpathentry kind="lib" path="dist/lib/httpclient-4.5.1.jar"/>
+	<classpathentry kind="lib" path="dist/lib/httpcore-4.3.jar"/>
+	<classpathentry kind="lib" path="dist/lib/jackson-annotations-2.8.6.jar"/>
+	<classpathentry kind="lib" path="dist/lib/jackson-core-2.8.6.jar"/>
+	<classpathentry kind="lib" path="dist/lib/jackson-databind-2.8.6.jar"/>
+	<classpathentry kind="lib" path="dist/lib/javax.mail-api-1.6.0.jar"/>
+	<classpathentry kind="lib" path="dist/lib/jcl-over-slf4j-1.7.22.jar"/>
+	<classpathentry kind="lib" path="dist/lib/jna-4.5.1.jar"/>
+	<classpathentry kind="lib" path="dist/lib/jul-to-slf4j-1.7.22.jar"/>
+	<classpathentry kind="lib" path="dist/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="dist/lib/log4j-over-slf4j-1.7.22.jar"/>
+	<classpathentry kind="lib" path="dist/lib/logback-classic-1.1.9.jar"/>
+	<classpathentry kind="lib" path="dist/lib/logback-core-1.1.9.jar"/>
+	<classpathentry kind="lib" path="dist/lib/mail-1.4.7.jar"/>
+	<classpathentry kind="lib" path="dist/lib/org-apache-commons-logging.jar"/>
+	<classpathentry kind="lib" path="dist/lib/org-netbeans-modules-java-j2seproject-copylibstask.jar"/>
+	<classpathentry kind="lib" path="dist/lib/slf4j-api-1.7.22.jar"/>
+	<classpathentry kind="lib" path="dist/lib/snakeyaml-1.17.jar"/>
+	<classpathentry kind="lib" path="dist/lib/spring-aop-4.3.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="dist/lib/spring-beans-4.3.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="dist/lib/spring-boot-1.4.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="dist/lib/spring-boot-autoconfigure-1.4.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="dist/lib/spring-boot-starter-1.4.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="dist/lib/spring-boot-starter-logging-1.4.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="dist/lib/spring-boot-starter-tomcat-1.4.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="dist/lib/spring-boot-starter-web-1.4.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="dist/lib/spring-context-4.3.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="dist/lib/spring-core-4.3.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="dist/lib/spring-expression-4.3.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="dist/lib/spring-web-4.3.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="dist/lib/spring-webmvc-4.3.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="dist/lib/tomcat-embed-core-8.5.11.jar"/>
+	<classpathentry kind="lib" path="dist/lib/tomcat-embed-el-8.5.11.jar"/>
+	<classpathentry kind="lib" path="dist/lib/tomcat-embed-websocket-8.5.11.jar"/>
+	<classpathentry kind="lib" path="dist/TableCheck.jar"/>
+	<classpathentry kind="lib" path="lib/CopyLibs/org-netbeans-modules-java-j2seproject-copylibstask.jar"/>
+	<classpathentry kind="lib" path="lib/gson-2.6.2.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient-4.3.2.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient-4.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/httpcore-4.3.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-annotations-2.8.6.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-core-2.8.6.jar"/>
+	<classpathentry kind="lib" path="lib/jackson-databind-2.8.6.jar"/>
+	<classpathentry kind="lib" path="lib/javax.mail-api-1.6.0.jar"/>
+	<classpathentry kind="lib" path="lib/jcl-over-slf4j-1.7.22.jar"/>
+	<classpathentry kind="lib" path="lib/jna-4.5.1.jar"/>
+	<classpathentry kind="lib" path="lib/jul-to-slf4j-1.7.22.jar"/>
+	<classpathentry kind="lib" path="lib/junit_4/junit-4.12-javadoc.jar"/>
+	<classpathentry kind="lib" path="lib/junit_4/junit-4.12-sources.jar"/>
+	<classpathentry kind="lib" path="lib/junit_4/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-over-slf4j-1.7.22.jar"/>
+	<classpathentry kind="lib" path="lib/logback-classic-1.1.9.jar"/>
+	<classpathentry kind="lib" path="lib/logback-core-1.1.9.jar"/>
+	<classpathentry kind="lib" path="lib/mail-1.4.7.jar"/>
+	<classpathentry kind="lib" path="lib/org-apache-commons-logging.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.22.jar"/>
+	<classpathentry kind="lib" path="lib/snakeyaml-1.17.jar"/>
+	<classpathentry kind="lib" path="lib/spring-aop-4.3.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-beans-4.3.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-boot-1.4.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-boot-autoconfigure-1.4.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-boot-starter-1.4.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-boot-starter-logging-1.4.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-boot-starter-tomcat-1.4.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-boot-starter-web-1.4.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-context-4.3.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-core-4.3.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-expression-4.3.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-web-4.3.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-webmvc-4.3.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/tomcat-embed-core-8.5.11.jar"/>
+	<classpathentry kind="lib" path="lib/tomcat-embed-el-8.5.11.jar"/>
+	<classpathentry kind="lib" path="lib/tomcat-embed-websocket-8.5.11.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JavaFX12"/>
+	<classpathentry kind="lib" path="E:/java things/jdk-8u181.zip"/>
+	<classpathentry kind="lib" path="E:/java things/javax.activation-1.1.0.v201105071233.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="target/generated-sources/annotations">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="ignore_optional_problems" value="true"/>
+			<attribute name="m2e-apt" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="target/test-classes" path="target/generated-test-sources/test-annotations">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="ignore_optional_problems" value="true"/>
+			<attribute name="m2e-apt" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

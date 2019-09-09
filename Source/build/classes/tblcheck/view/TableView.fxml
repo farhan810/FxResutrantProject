@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<!-- <?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?> -->
+
+<Group fx:id="parentGroup" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tblcheck.view.TableView">
+    <children>
+        <Group fx:id="grp">
+            <children>
+                <StackPane fx:id="pane" styleClass="tbl" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" >
+                    <children>
+                        <Rectangle fx:id="rect" styleClass="rect" arcHeight="5.0" arcWidth="5.0" fill="#0e9e13" height="100.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />
+                        <Circle fx:id="cir" styleClass="cir" fill="#0e9e13" radius="48.0" stroke="BLACK" strokeType="INSIDE" />
+						<Arc fx:id="arc" fill="#0e9e13" layoutX="262.0" layoutY="163.0" length="180.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+                        <Text fx:id="text" styleClass="text" text="Text" />
+                    </children>
+                </StackPane>
+                <!--<Text fx:id="lblElapsed" styleClass="text" text="00:00" visible="true" />-->
+            <!--<VBox fx:id="vBox" alignment="CENTER"  prefHeight="100.0" prefWidth="100.0" style="-fx-border-width:1px; -fx-border-color:red;">-->
+               <!--<children>-->
+                      <!--<StackPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="100.0" prefWidth="100.0" styleClass="tbl">-->
+                          <!--<children>-->
+                              <!--<Rectangle fx:id="rect" arcHeight="5.0" arcWidth="5.0" fill="#0e9e13" height="100.0" stroke="BLACK" strokeType="INSIDE" width="100.0" />-->
+                              <!--<Circle fx:id="cir" fill="#0e9e13" radius="48.0" stroke="BLACK" strokeType="INSIDE" />-->
+                              <!--<Text fx:id="text" styleClass="text" text="Text" />-->
+                          <!--</children>-->
+                      <!--</StackPane>-->
+                      <!--<Text fx:id="lblElapsed" styleClass="text" text="00:00" visible="false" />-->
+               <!--</children>-->
+            <!--</VBox>-->
+            </children>
+        </Group>
+    </children>
+</Group>

@@ -1,0 +1,33 @@
+
+/* Table context menu */
+
+.tbl-section {
+    /*-fx-border-width: 8px !important;*/
+    -fx-stroke-width: 12.0px !important;
+}
+
+/* End table context menu */
+.batteryGood {
+	-fx-background-color: green;
+	-fx-border-color: lime; 
+	-fx-fill: green;
+}
+.batteryWarn {
+	-fx-background-color: yellow;
+	-fx-border-color: orange;
+	-fx-fill: yellow;
+}
+.chargeOff {
+	-fx-background-color: red;
+	-fx-border-color: orange;
+	-fx-fill: red;
+}
+.chargeOn {
+	-fx-background-color: orange;
+	-fx-border-color: orange;
+	-fx-fill: orange;
+}
+.batteryTxt {
+	-fx-font-weight: bold;
+	-fx-text-fill: Green
+}

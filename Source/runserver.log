@@ -1,0 +1,544 @@
+TableCheck - Build 20180204
+Using interface eth1 (192.168.1.102)
+>>>>> Trying me as Server
+>>>>> is Reached ip - 198.18.56.43 : 8080
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/E:/Projects/Java%20&%20Javascript/OSJ_Task/Source/lib/logback-classic-1.1.9.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/E:/Projects/Java%20&%20Javascript/OSJ_Task/Source/dist/lib/logback-classic-1.1.9.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [ch.qos.logback.classic.util.ContextSelectorStaticBinder]
+Zoom Factor: 0.5
+Load new layout: County Line H9.json
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+WALL
+WALL
+WALL
+WALL
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+WALL
+WALL
+WALL
+WALL
+WALL
+WALL
+WALL
+WALL
+WALL
+WALL
+WALL
+WALL
+LABEL
+LABEL
+STAIRS
+>>>>> new spring is created! 8080
+STAIRS
+LABEL
+LABEL
+LABEL
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+TABLE
+WALL
+LABEL
+=== MulticastReceiver Started! Thread ID is 20
+>>>> PingResponse
+Top: 10	Left: 10	Right: 1256	Bottom: 723
+pnContent: Width: 1755.000000	Height: 1035.000000
+scrollPane: Width: 1755.000000	Height: 1035.000000
+scrollPane: Viewport Width: 1749.000000	Height: 1029.000000
+contentGroup: Width: 1246.000000	Height: 718.000000
+zoomGroup: Width: 1246.000000	Height: 718.000000
+pnInnerContent: Width: 429.000000	Height: 323.000000
+pnInnerContent pref: Width: 1270.000000	Height: 737.000000
+Scale: 1.375591	ScaleX: 1.000000	ScaleY: 1.000000
+ false false
+ false false
+Executing request GET http://198.18.56.43:8080/tableservice/ping HTTP/1.1
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.4.4.RELEASE)
+
+2019-05-25 18:19:53.981  INFO 9640 --- [       Thread-4] c.tablecheck.service.ServiceApplication  : Starting ServiceApplication v1.0 on DESKTOP-84FR1VP with PID 9640 (started by Administrator in E:\Projects\Java & Javascript\OSJ_Task\Source)
+2019-05-25 18:19:53.984  INFO 9640 --- [       Thread-4] c.tablecheck.service.ServiceApplication  : No active profile set, falling back to default profiles: default
+2019-05-25 18:19:54.036  INFO 9640 --- [       Thread-4] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@73fba5dc: startup date [Sat May 25 18:19:54 CST 2019]; root of context hierarchy
+Connect to 198.18.56.43:8080 [/198.18.56.43] failed: Connection refused: connect  - 198.18.56.43
+2019-05-25 18:19:55.123  INFO 9640 --- [       Thread-4] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2019-05-25 18:19:55.258  INFO 9640 --- [       Thread-4] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2019-05-25 18:19:55.259  INFO 9640 --- [       Thread-4] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.11
+Using interface eth1 (192.168.1.102)
+Using interface eth1 (192.168.1.102)
+Connect to 198.18.56.43:8080 [/198.18.56.43] failed: Connection refused: connect  - 198.18.56.43
+2019-05-25 18:19:56.357  INFO 9640 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-25 18:19:56.358  INFO 9640 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2322 ms
+2019-05-25 18:19:56.466  INFO 9640 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2019-05-25 18:19:56.469  INFO 9640 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-05-25 18:19:56.470  INFO 9640 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-05-25 18:19:56.470  INFO 9640 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-05-25 18:19:56.470  INFO 9640 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2019-05-25 18:19:56.686  INFO 9640 --- [       Thread-4] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@73fba5dc: startup date [Sat May 25 18:19:54 CST 2019]; root of context hierarchy
+2019-05-25 18:19:56.754  INFO 9640 --- [       Thread-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tableservice/time],methods=[GET]}" onto public java.lang.String com.tablecheck.service.controller.ServiceController.getTime()
+2019-05-25 18:19:56.755  INFO 9640 --- [       Thread-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tableservice/staffs],methods=[GET],produces=[application/json]}" onto public java.util.List<java.lang.String> com.tablecheck.service.controller.ServiceController.getStaffs()
+2019-05-25 18:19:56.755  INFO 9640 --- [       Thread-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tableservice/table],methods=[GET],produces=[application/json]}" onto public java.lang.String com.tablecheck.service.controller.ServiceController.readTable()
+2019-05-25 18:19:56.755  INFO 9640 --- [       Thread-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tableservice/staffs/sections],methods=[POST],produces=[application/json]}" onto public boolean com.tablecheck.service.controller.ServiceController.writeStaffsSections(java.util.Map<java.lang.Integer, java.lang.String>)
+2019-05-25 18:19:56.756  INFO 9640 --- [       Thread-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tableservice/sections/counts],methods=[POST],produces=[application/json]}" onto public boolean com.tablecheck.service.controller.ServiceController.updateSectionsCount(java.lang.String)
+2019-05-25 18:19:56.756  INFO 9640 --- [       Thread-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tableservice/staffs/sections],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.Integer, java.lang.String> com.tablecheck.service.controller.ServiceController.readStaffsSections()
+2019-05-25 18:19:56.756  INFO 9640 --- [       Thread-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tableservice/staffs/counts],methods=[POST],produces=[application/json]}" onto public boolean com.tablecheck.service.controller.ServiceController.updateStaffsCount(int)
+2019-05-25 18:19:56.756  INFO 9640 --- [       Thread-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tableservice/restaurantresources],methods=[GET],produces=[application/json]}" onto public com.tablecheck.service.model.RestaurantResource com.tablecheck.service.controller.ServiceController.readResources()
+2019-05-25 18:19:56.756  INFO 9640 --- [       Thread-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tableservice/ping],methods=[GET],produces=[application/json]}" onto public com.tablecheck.service.model.PingResponse com.tablecheck.service.controller.ServiceController.ping(java.lang.String)
+2019-05-25 18:19:56.756  INFO 9640 --- [       Thread-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tableservice/shut],methods=[POST],produces=[application/json]}" onto public com.tablecheck.service.model.PingResponse com.tablecheck.service.controller.ServiceController.shut(java.lang.String)
+2019-05-25 18:19:56.757  INFO 9640 --- [       Thread-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tableservice/menus/hold],methods=[POST],produces=[application/json]}" onto public boolean com.tablecheck.service.controller.ServiceController.updateHold(java.lang.String)
+2019-05-25 18:19:56.757  INFO 9640 --- [       Thread-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tableservice/restrooms],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Boolean> com.tablecheck.service.controller.ServiceController.getRestRooms()
+2019-05-25 18:19:56.757  INFO 9640 --- [       Thread-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tableservice/tablemap],methods=[GET]}" onto public java.lang.String com.tablecheck.service.controller.ServiceController.readTableMap()
+2019-05-25 18:19:56.757  INFO 9640 --- [       Thread-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tableservice/stafflogs],methods=[POST],produces=[application/json]}" onto public boolean com.tablecheck.service.controller.ServiceController.updateStaffLogs(com.tablecheck.service.model.StaffLog)
+2019-05-25 18:19:56.757  INFO 9640 --- [       Thread-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tableservice/tables],methods=[POST],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.lang.Boolean> com.tablecheck.service.controller.ServiceController.writeTables(com.tablecheck.service.model.TableRequest)
+2019-05-25 18:19:56.758  INFO 9640 --- [       Thread-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tableservice/menus],methods=[POST],produces=[application/json]}" onto public boolean com.tablecheck.service.controller.ServiceController.updateMenus(java.util.Map<java.lang.String, java.lang.Boolean>)
+2019-05-25 18:19:56.758  INFO 9640 --- [       Thread-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tableservice/staffs],methods=[POST],produces=[application/json]}" onto public boolean com.tablecheck.service.controller.ServiceController.updateStaffs(java.util.List<java.lang.String>)
+2019-05-25 18:19:56.758  INFO 9640 --- [       Thread-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tableservice/logs/{filetype}/{stdate}/{enddate} || /tableservice/logs/{filetype}/{stdate}],methods=[GET],produces=[application/octet-stream]}" onto public org.springframework.http.ResponseEntity<org.springframework.core.io.Resource> com.tablecheck.service.controller.ServiceController.getAllLogs(java.lang.String,java.lang.String,java.lang.String)
+2019-05-25 18:19:56.758  INFO 9640 --- [       Thread-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tableservice/tablehw],methods=[POST]}" onto public org.springframework.http.ResponseEntity<java.lang.Boolean> com.tablecheck.service.controller.ServiceController.writeTable(com.tablecheck.service.model.TableRequest)
+2019-05-25 18:19:56.758  INFO 9640 --- [       Thread-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tableservice/menus/lock],methods=[POST],produces=[application/json]}" onto public boolean com.tablecheck.service.controller.ServiceController.updateMenuLock(java.lang.String)
+2019-05-25 18:19:56.758  INFO 9640 --- [       Thread-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tableservice/tablelogs],methods=[POST],produces=[application/json]}" onto public boolean com.tablecheck.service.controller.ServiceController.updateTableLogs(com.tablecheck.service.model.TableLog)
+2019-05-25 18:19:56.758  INFO 9640 --- [       Thread-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tableservice/managers/statuses],methods=[POST],produces=[application/json]}" onto public boolean com.tablecheck.service.controller.ServiceController.updateManager(java.util.Map<java.lang.String, java.lang.Boolean>)
+2019-05-25 18:19:56.758  INFO 9640 --- [       Thread-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tableservice/restaurantresources],methods=[POST],produces=[application/json]}" onto public boolean com.tablecheck.service.controller.ServiceController.updateResources(com.tablecheck.service.model.RestaurantResource)
+2019-05-25 18:19:56.758  INFO 9640 --- [       Thread-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tableservice/restrooms],methods=[POST],produces=[application/json]}" onto public boolean com.tablecheck.service.controller.ServiceController.updateRest(java.util.Map<java.lang.String, java.lang.Boolean>)
+2019-05-25 18:19:56.758  INFO 9640 --- [       Thread-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tableservice/managers/statuses],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Boolean> com.tablecheck.service.controller.ServiceController.getManager()
+2019-05-25 18:19:56.758  INFO 9640 --- [       Thread-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tableservice/tables],methods=[GET],produces=[application/json]}" onto public java.util.List<com.tablecheck.service.model.TableResponse> com.tablecheck.service.controller.ServiceController.readTables()
+2019-05-25 18:19:56.758  INFO 9640 --- [       Thread-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/tableservice/logs/email/{filetype}/{stdate}/{enddate} || /tableservice/logs/email/{filetype}/{stdate}],methods=[GET],produces=[application/json]}" onto public boolean com.tablecheck.service.controller.ServiceController.emailAllLogs(java.lang.String,java.lang.String,java.lang.String,java.lang.String)
+2019-05-25 18:19:56.760  INFO 9640 --- [       Thread-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-05-25 18:19:56.760  INFO 9640 --- [       Thread-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+Connect to 198.18.56.43:8080 [/198.18.56.43] failed: Connection refused: connect  - 198.18.56.43
+>>>> PingResponse
+Executing request GET http://198.18.56.43:8080/tableservice/ping HTTP/1.1
+2019-05-25 18:19:56.784  INFO 9640 --- [       Thread-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-25 18:19:56.784  INFO 9640 --- [       Thread-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-25 18:19:56.811  INFO 9640 --- [       Thread-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-05-25 18:19:56.923  INFO 9640 --- [       Thread-4] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-05-25 18:19:56.982  INFO 9640 --- [       Thread-4] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2019-05-25 18:19:56.986  INFO 9640 --- [       Thread-4] c.tablecheck.service.ServiceApplication  : Started ServiceApplication in 3.576 seconds (JVM running for 6.511)
+>>>>> Spring App started >>>
+=== Broadcast Thread started!
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:1
+2019-05-25 18:19:57.317  INFO 9640 --- [nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-05-25 18:19:57.317  INFO 9640 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-05-25 18:19:57.330  INFO 9640 --- [nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 13 ms
+Staff list
+Staff: Staff1
+Staff Section:null
+ true false
+ true false
+{"restaurantid":"1","customerid":"2","from":"T","length":"64","RTS":"0","t":"0.8513557957763658183","allDefault":true,"tableChanges":[{"tableId":"T8","color":"green","section":0},{"tableId":"T1","color":"green","section":0},{"tableId":"T2","color":"green","section":0},{"tableId":"T3","color":"green","section":0},{"tableId":"T9","color":"green","section":0},{"tableId":"T10","color":"green","section":0},{"tableId":"T21","color":"green","section":0},{"tableId":"T22","color":"green","section":0},{"tableId":"T23","color":"green","section":0},{"tableId":"T25","color":"green","section":0},{"tableId":"T26","color":"green","section":0},{"tableId":"T27","color":"green","section":0},{"tableId":"T28","color":"green","section":0},{"tableId":"T29","color":"green","section":0},{"tableId":"T30","color":"green","section":0},{"tableId":"T31","color":"green","section":0},{"tableId":"T32","color":"green","section":0},{"tableId":"T33","color":"green","section":0},{"tableId":"T34","color":"green","section":0},{"tableId":"T5","color":"green","section":0},{"tableId":"T6","color":"green","section":0},{"tableId":"T7","color":"green","section":0},{"tableId":"T13","color":"green","section":0},{"tableId":"T15","color":"green","section":0},{"tableId":"T12","color":"green","section":0},{"tableId":"T14","color":"green","section":0},{"tableId":"T11","color":"green","section":0},{"tableId":"T24","color":"green","section":0},{"tableId":"T35","color":"green","section":0},{"tableId":"T36","color":"green","section":0},{"tableId":"T37","color":"green","section":0},{"tableId":"T38","color":"green","section":0},{"tableId":"T45","color":"green","section":0},{"tableId":"T46","color":"green","section":0},{"tableId":"T47","color":"green","section":0},{"tableId":"T48","color":"green","section":0},{"tableId":"T55","color":"green","section":0},{"tableId":"T54","color":"green","section":0},{"tableId":"T53","color":"green","section":0},{"tableId":"T56","color":"green","section":0},{"tableId":"T57","color":"green","section":0},{"tableId":"T58","color":"green","section":0},{"tableId":"T59","color":"green","section":0},{"tableId":"T60","color":"green","section":0},{"tableId":"T61","color":"green","section":0},{"tableId":"T62","color":"green","section":0},{"tableId":"T63","color":"green","section":0},{"tableId":"T16","color":"green","section":0},{"tableId":"T17","color":"green","section":0},{"tableId":"T18","color":"green","section":0},{"tableId":"T19","color":"green","section":0},{"tableId":"T20","color":"green","section":0},{"tableId":"T39","color":"green","section":0},{"tableId":"T40","color":"green","section":0},{"tableId":"T41","color":"green","section":0},{"tableId":"T42","color":"green","section":0},{"tableId":"T43","color":"green","section":0},{"tableId":"T44","color":"green","section":0},{"tableId":"T49","color":"green","section":0},{"tableId":"T50","color":"green","section":0},{"tableId":"T51","color":"green","section":0},{"tableId":"T52","color":"green","section":0},{"tableId":"T64","color":"green","section":0},{"tableId":"T4","color":"green","section":0}]}
+Executing request POST http://192.168.1.102:8080/tableservice/tables HTTP/1.1
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Write service >.... {"ctn":null,"restaurantid":"1","customerid":"2","from":"T","length":"64","t":"0.8513557957763658183","allDefault":true,"tableChanges":[{"tableId":"T8","color":"green","section":0},{"tableId":"T1","color":"green","section":0},{"tableId":"T2","color":"green","section":0},{"tableId":"T3","color":"green","section":0},{"tableId":"T9","color":"green","section":0},{"tableId":"T10","color":"green","section":0},{"tableId":"T21","color":"green","section":0},{"tableId":"T22","color":"green","section":0},{"tableId":"T23","color":"green","section":0},{"tableId":"T25","color":"green","section":0},{"tableId":"T26","color":"green","section":0},{"tableId":"T27","color":"green","section":0},{"tableId":"T28","color":"green","section":0},{"tableId":"T29","color":"green","section":0},{"tableId":"T30","color":"green","section":0},{"tableId":"T31","color":"green","section":0},{"tableId":"T32","color":"green","section":0},{"tableId":"T33","color":"green","section":0},{"tableId":"T34","color":"green","section":0},{"tableId":"T5","color":"green","section":0},{"tableId":"T6","color":"green","section":0},{"tableId":"T7","color":"green","section":0},{"tableId":"T13","color":"green","section":0},{"tableId":"T15","color":"green","section":0},{"tableId":"T12","color":"green","section":0},{"tableId":"T14","color":"green","section":0},{"tableId":"T11","color":"green","section":0},{"tableId":"T24","color":"green","section":0},{"tableId":"T35","color":"green","section":0},{"tableId":"T36","color":"green","section":0},{"tableId":"T37","color":"green","section":0},{"tableId":"T38","color":"green","section":0},{"tableId":"T45","color":"green","section":0},{"tableId":"T46","color":"green","section":0},{"tableId":"T47","color":"green","section":0},{"tableId":"T48","color":"green","section":0},{"tableId":"T55","color":"green","section":0},{"tableId":"T54","color":"green","section":0},{"tableId":"T53","color":"green","section":0},{"tableId":"T56","color":"green","section":0},{"tableId":"T57","color":"green","section":0},{"tableId":"T58","color":"green","section":0},{"tableId":"T59","color":"green","section":0},{"tableId":"T60","color":"green","section":0},{"tableId":"T61","color":"green","section":0},{"tableId":"T62","color":"green","section":0},{"tableId":"T63","color":"green","section":0},{"tableId":"T16","color":"green","section":0},{"tableId":"T17","color":"green","section":0},{"tableId":"T18","color":"green","section":0},{"tableId":"T19","color":"green","section":0},{"tableId":"T20","color":"green","section":0},{"tableId":"T39","color":"green","section":0},{"tableId":"T40","color":"green","section":0},{"tableId":"T41","color":"green","section":0},{"tableId":"T42","color":"green","section":0},{"tableId":"T43","color":"green","section":0},{"tableId":"T44","color":"green","section":0},{"tableId":"T49","color":"green","section":0},{"tableId":"T50","color":"green","section":0},{"tableId":"T51","color":"green","section":0},{"tableId":"T52","color":"green","section":0},{"tableId":"T64","color":"green","section":0},{"tableId":"T4","color":"green","section":0}],"col":null,"rts":null,"customerId":"2"}
+Staff Section:null
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+{"restaurantid":"1","customerid":"2","from":"T","length":"64","RTS":"0","t":"0.1786431709998606561","allDefault":true,"tableChanges":[{"tableId":"T8","color":"green","section":0},{"tableId":"T1","color":"green","section":0},{"tableId":"T2","color":"green","section":0},{"tableId":"T3","color":"green","section":0},{"tableId":"T9","color":"green","section":0},{"tableId":"T10","color":"green","section":0},{"tableId":"T21","color":"green","section":0},{"tableId":"T22","color":"green","section":0},{"tableId":"T23","color":"green","section":0},{"tableId":"T25","color":"green","section":0},{"tableId":"T26","color":"green","section":0},{"tableId":"T27","color":"green","section":0},{"tableId":"T28","color":"green","section":0},{"tableId":"T29","color":"green","section":0},{"tableId":"T30","color":"green","section":0},{"tableId":"T31","color":"green","section":0},{"tableId":"T32","color":"green","section":0},{"tableId":"T33","color":"green","section":0},{"tableId":"T34","color":"green","section":0},{"tableId":"T5","color":"green","section":0},{"tableId":"T6","color":"green","section":0},{"tableId":"T7","color":"green","section":0},{"tableId":"T13","color":"green","section":0},{"tableId":"T15","color":"green","section":0},{"tableId":"T12","color":"green","section":0},{"tableId":"T14","color":"green","section":0},{"tableId":"T11","color":"green","section":0},{"tableId":"T24","color":"green","section":0},{"tableId":"T35","color":"green","section":0},{"tableId":"T36","color":"green","section":0},{"tableId":"T37","color":"green","section":0},{"tableId":"T38","color":"green","section":0},{"tableId":"T45","color":"green","section":0},{"tableId":"T46","color":"green","section":0},{"tableId":"T47","color":"green","section":0},{"tableId":"T48","color":"green","section":0},{"tableId":"T55","color":"green","section":0},{"tableId":"T54","color":"green","section":0},{"tableId":"T53","color":"green","section":0},{"tableId":"T56","color":"green","section":0},{"tableId":"T57","color":"green","section":0},{"tableId":"T58","color":"green","section":0},{"tableId":"T59","color":"green","section":0},{"tableId":"T60","color":"green","section":0},{"tableId":"T61","color":"green","section":0},{"tableId":"T62","color":"green","section":0},{"tableId":"T63","color":"green","section":0},{"tableId":"T16","color":"green","section":0},{"tableId":"T17","color":"green","section":0},{"tableId":"T18","color":"green","section":0},{"tableId":"T19","color":"green","section":0},{"tableId":"T20","color":"green","section":0},{"tableId":"T39","color":"green","section":0},{"tableId":"T40","color":"green","section":0},{"tableId":"T41","color":"green","section":0},{"tableId":"T42","color":"green","section":0},{"tableId":"T43","color":"green","section":0},{"tableId":"T44","color":"green","section":0},{"tableId":"T49","color":"green","section":0},{"tableId":"T50","color":"green","section":0},{"tableId":"T51","color":"green","section":0},{"tableId":"T52","color":"green","section":0},{"tableId":"T64","color":"green","section":0},{"tableId":"T4","color":"green","section":0}]}
+Executing request POST http://192.168.1.102:8080/tableservice/tables HTTP/1.1
+Write service >.... {"ctn":null,"restaurantid":"1","customerid":"2","from":"T","length":"64","t":"0.1786431709998606561","allDefault":true,"tableChanges":[{"tableId":"T8","color":"green","section":0},{"tableId":"T1","color":"green","section":0},{"tableId":"T2","color":"green","section":0},{"tableId":"T3","color":"green","section":0},{"tableId":"T9","color":"green","section":0},{"tableId":"T10","color":"green","section":0},{"tableId":"T21","color":"green","section":0},{"tableId":"T22","color":"green","section":0},{"tableId":"T23","color":"green","section":0},{"tableId":"T25","color":"green","section":0},{"tableId":"T26","color":"green","section":0},{"tableId":"T27","color":"green","section":0},{"tableId":"T28","color":"green","section":0},{"tableId":"T29","color":"green","section":0},{"tableId":"T30","color":"green","section":0},{"tableId":"T31","color":"green","section":0},{"tableId":"T32","color":"green","section":0},{"tableId":"T33","color":"green","section":0},{"tableId":"T34","color":"green","section":0},{"tableId":"T5","color":"green","section":0},{"tableId":"T6","color":"green","section":0},{"tableId":"T7","color":"green","section":0},{"tableId":"T13","color":"green","section":0},{"tableId":"T15","color":"green","section":0},{"tableId":"T12","color":"green","section":0},{"tableId":"T14","color":"green","section":0},{"tableId":"T11","color":"green","section":0},{"tableId":"T24","color":"green","section":0},{"tableId":"T35","color":"green","section":0},{"tableId":"T36","color":"green","section":0},{"tableId":"T37","color":"green","section":0},{"tableId":"T38","color":"green","section":0},{"tableId":"T45","color":"green","section":0},{"tableId":"T46","color":"green","section":0},{"tableId":"T47","color":"green","section":0},{"tableId":"T48","color":"green","section":0},{"tableId":"T55","color":"green","section":0},{"tableId":"T54","color":"green","section":0},{"tableId":"T53","color":"green","section":0},{"tableId":"T56","color":"green","section":0},{"tableId":"T57","color":"green","section":0},{"tableId":"T58","color":"green","section":0},{"tableId":"T59","color":"green","section":0},{"tableId":"T60","color":"green","section":0},{"tableId":"T61","color":"green","section":0},{"tableId":"T62","color":"green","section":0},{"tableId":"T63","color":"green","section":0},{"tableId":"T16","color":"green","section":0},{"tableId":"T17","color":"green","section":0},{"tableId":"T18","color":"green","section":0},{"tableId":"T19","color":"green","section":0},{"tableId":"T20","color":"green","section":0},{"tableId":"T39","color":"green","section":0},{"tableId":"T40","color":"green","section":0},{"tableId":"T41","color":"green","section":0},{"tableId":"T42","color":"green","section":0},{"tableId":"T43","color":"green","section":0},{"tableId":"T44","color":"green","section":0},{"tableId":"T49","color":"green","section":0},{"tableId":"T50","color":"green","section":0},{"tableId":"T51","color":"green","section":0},{"tableId":"T52","color":"green","section":0},{"tableId":"T64","color":"green","section":0},{"tableId":"T4","color":"green","section":0}],"col":null,"rts":null,"customerId":"2"}
+----------------------------------------
+Status :: HTTP/1.1 200 
+Result true
+Staff Section:null
+----------------------------------------
+Status :: HTTP/1.1 200 
+Result true
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:2
+[ClickEvent]: MouseEvent [source = AnchorPane[id=pnContent], target = Pane[id=pnInnerContent], eventType = MOUSE_CLICKED, consumed = false, x = 1060.0, y = 660.0, z = 2.2737367544323206E-13, button = PRIMARY, pickResult = PickResult [node = Pane[id=pnInnerContent], point = Point3D [x = 768.3972524327418, y = 477.6130489530602, z = 2.2737367544323206E-13], distance = 2015.3074360871942]
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+TABLE
+0x808080ff
+[ClickEvent]: MouseEvent [source = AnchorPane[id=pnContent], target = Rectangle[id=rect, x=0.0, y=0.0, width=77.0, height=57.0, fill=0x808080ff, stroke=0x000000ff, strokeWidth=1.0], eventType = MOUSE_CLICKED, consumed = false, x = 1394.0, y = 492.0, z = 0.0, button = PRIMARY, pickResult = PickResult [node = Rectangle[id=rect, x=0.0, y=0.0, width=77.0, height=57.0, fill=0x808080ff, stroke=0x000000ff, strokeWidth=1.0], point = Point3D [x = 49.20206067544359, y = 41.48368432798861, z = 0.0], distance = 2015.307436087194]
+{"restaurantid":"1","customerid":"2","from":"T","length":"64","RTS":"0","t":"0.5127300146506202495","allDefault":false,"tableChanges":[{"tableId":"T24","color":"gray","section":0}]}
+Executing request POST http://192.168.1.102:8080/tableservice/tables HTTP/1.1
+Write service >.... {"ctn":null,"restaurantid":"1","customerid":"2","from":"T","length":"64","t":"0.5127300146506202495","allDefault":false,"tableChanges":[{"tableId":"T24","color":"gray","section":0}],"col":null,"rts":null,"customerId":"2"}
+----------------------------------------
+Status :: HTTP/1.1 200 
+Result true
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+TABLE
+0xff0000ff
+[ClickEvent]: MouseEvent [source = AnchorPane[id=pnContent], target = Rectangle[id=rect, x=0.0, y=0.0, width=77.0, height=57.0, fill=0xff0000ff, stroke=0x000000ff, strokeWidth=1.0], eventType = MOUSE_CLICKED, consumed = false, x = 1394.0, y = 492.0, z = 0.0, button = PRIMARY, pickResult = PickResult [node = Rectangle[id=rect, x=0.0, y=0.0, width=77.0, height=57.0, fill=0xff0000ff, stroke=0x000000ff, strokeWidth=1.0], point = Point3D [x = 49.20206067544359, y = 41.48368432798861, z = 0.0], distance = 2015.307436087194]
+{"restaurantid":"1","customerid":"2","from":"T","length":"64","RTS":"0","t":"0.8117969907599326251","allDefault":false,"tableChanges":[{"tableId":"T24","color":"red","section":0}]}
+Executing request POST http://192.168.1.102:8080/tableservice/tables HTTP/1.1
+Write service >.... {"ctn":null,"restaurantid":"1","customerid":"2","from":"T","length":"64","t":"0.8117969907599326251","allDefault":false,"tableChanges":[{"tableId":"T24","color":"red","section":0}],"col":null,"rts":null,"customerId":"2"}
+----------------------------------------
+Status :: HTTP/1.1 200 
+Result true
+TABLE
+0x32cd32ff
+[ClickEvent]: MouseEvent [source = AnchorPane[id=pnContent], target = Rectangle[id=rect, x=0.0, y=0.0, width=77.0, height=57.0, fill=0x32cd32ff, stroke=0x000000ff, strokeWidth=1.0], eventType = MOUSE_CLICKED, consumed = false, x = 1394.0, y = 492.0, z = 0.0, button = PRIMARY, clickCount = 2, pickResult = PickResult [node = Rectangle[id=rect, x=0.0, y=0.0, width=77.0, height=57.0, fill=0x32cd32ff, stroke=0x000000ff, strokeWidth=1.0], point = Point3D [x = 49.20206067544359, y = 41.48368432798861, z = 0.0], distance = 2015.307436087194]
+{"restaurantid":"1","customerid":"2","from":"T","length":"64","RTS":"0","t":"0.-289220446790292564","allDefault":false,"tableChanges":[{"tableId":"T24","color":"green","section":0}]}
+Executing request POST http://192.168.1.102:8080/tableservice/tables HTTP/1.1
+Write service >.... {"ctn":null,"restaurantid":"1","customerid":"2","from":"T","length":"64","t":"0.-289220446790292564","allDefault":false,"tableChanges":[{"tableId":"T24","color":"green","section":0}],"col":null,"rts":null,"customerId":"2"}
+----------------------------------------
+Status :: HTTP/1.1 200 
+Result true
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+TABLE
+0x808080ff
+[ClickEvent]: MouseEvent [source = AnchorPane[id=pnContent], target = Rectangle[id=rect, x=0.0, y=0.0, width=57.0, height=77.0, fill=0x808080ff, stroke=0x000000ff, strokeWidth=1.0], eventType = MOUSE_CLICKED, consumed = false, x = 493.99999999999994, y = 239.0, z = 0.0, button = PRIMARY, pickResult = PickResult [node = Rectangle[id=rect, x=0.0, y=0.0, width=57.0, height=77.0, fill=0x808080ff, stroke=0x000000ff, strokeWidth=1.0], point = Point3D [x = 32.954908303700904, y = 16.283826594108973, z = 0.0], distance = 2015.307436087194]
+{"restaurantid":"1","customerid":"2","from":"T","length":"64","RTS":"0","t":"0.5680865872394845846","allDefault":false,"tableChanges":[{"tableId":"T8","color":"gray","section":0}]}
+Executing request POST http://192.168.1.102:8080/tableservice/tables HTTP/1.1
+Write service >.... {"ctn":null,"restaurantid":"1","customerid":"2","from":"T","length":"64","t":"0.5680865872394845846","allDefault":false,"tableChanges":[{"tableId":"T8","color":"gray","section":0}],"col":null,"rts":null,"customerId":"2"}
+----------------------------------------
+Status :: HTTP/1.1 200 
+Result true
+TABLE
+0xff0000ff
+[ClickEvent]: MouseEvent [source = AnchorPane[id=pnContent], target = Rectangle[id=rect, x=0.0, y=0.0, width=57.0, height=77.0, fill=0xff0000ff, stroke=0x000000ff, strokeWidth=1.0], eventType = MOUSE_CLICKED, consumed = false, x = 493.00000000000006, y = 239.0, z = 0.0, button = PRIMARY, clickCount = 2, pickResult = PickResult [node = Rectangle[id=rect, x=0.0, y=0.0, width=57.0, height=77.0, fill=0xff0000ff, stroke=0x000000ff, strokeWidth=1.0], point = Point3D [x = 32.25031581547938, y = 16.283826594108973, z = 0.0], distance = 2015.307436087194]
+{"restaurantid":"1","customerid":"2","from":"T","length":"64","RTS":"0","t":"0.7399787294713573966","allDefault":false,"tableChanges":[{"tableId":"T8","color":"red","section":0}]}
+Executing request POST http://192.168.1.102:8080/tableservice/tables HTTP/1.1
+Write service >.... {"ctn":null,"restaurantid":"1","customerid":"2","from":"T","length":"64","t":"0.7399787294713573966","allDefault":false,"tableChanges":[{"tableId":"T8","color":"red","section":0}],"col":null,"rts":null,"customerId":"2"}
+----------------------------------------
+Status :: HTTP/1.1 200 
+Result true
+TABLE
+0x32cd32ff
+[ClickEvent]: MouseEvent [source = AnchorPane[id=pnContent], target = Rectangle[id=rect, x=0.0, y=0.0, width=57.0, height=77.0, fill=0x32cd32ff, stroke=0x000000ff, strokeWidth=1.0], eventType = MOUSE_CLICKED, consumed = false, x = 493.00000000000006, y = 239.0, z = 0.0, button = PRIMARY, clickCount = 3, pickResult = PickResult [node = Rectangle[id=rect, x=0.0, y=0.0, width=57.0, height=77.0, fill=0x32cd32ff, stroke=0x000000ff, strokeWidth=1.0], point = Point3D [x = 32.25031581547938, y = 16.283826594108973, z = 0.0], distance = 2015.307436087194]
+{"restaurantid":"1","customerid":"2","from":"T","length":"64","RTS":"0","t":"0.-4116787754941361730","allDefault":false,"tableChanges":[{"tableId":"T8","color":"green","section":0}]}
+Executing request POST http://192.168.1.102:8080/tableservice/tables HTTP/1.1
+Write service >.... {"ctn":null,"restaurantid":"1","customerid":"2","from":"T","length":"64","t":"0.-4116787754941361730","allDefault":false,"tableChanges":[{"tableId":"T8","color":"green","section":0}],"col":null,"rts":null,"customerId":"2"}
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+----------------------------------------
+Status :: HTTP/1.1 200 
+Result true
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+TABLE
+0x808080ff
+[ClickEvent]: MouseEvent [source = AnchorPane[id=pnContent], target = Rectangle[id=rect, x=0.0, y=0.0, width=57.0, height=77.0, fill=0x808080ff, stroke=0x000000ff, strokeWidth=1.0], eventType = MOUSE_CLICKED, consumed = false, x = 493.00000000000006, y = 239.0, z = 0.0, button = PRIMARY, pickResult = PickResult [node = Rectangle[id=rect, x=0.0, y=0.0, width=57.0, height=77.0, fill=0x808080ff, stroke=0x000000ff, strokeWidth=1.0], point = Point3D [x = 32.25031581547938, y = 16.283826594108973, z = 0.0], distance = 2015.307436087194]
+{"restaurantid":"1","customerid":"2","from":"T","length":"64","RTS":"0","t":"0.5416562321782402889","allDefault":false,"tableChanges":[{"tableId":"T8","color":"gray","section":0}]}
+Executing request POST http://192.168.1.102:8080/tableservice/tables HTTP/1.1
+Write service >.... {"ctn":null,"restaurantid":"1","customerid":"2","from":"T","length":"64","t":"0.5416562321782402889","allDefault":false,"tableChanges":[{"tableId":"T8","color":"gray","section":0}],"col":null,"rts":null,"customerId":"2"}
+----------------------------------------
+Status :: HTTP/1.1 200 
+Result true
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+TABLE
+0xff0000ff
+[ClickEvent]: MouseEvent [source = AnchorPane[id=pnContent], target = Rectangle[id=rect, x=0.0, y=0.0, width=57.0, height=77.0, fill=0xff0000ff, stroke=0x000000ff, strokeWidth=1.0], eventType = MOUSE_CLICKED, consumed = false, x = 493.00000000000006, y = 239.0, z = 0.0, button = PRIMARY, pickResult = PickResult [node = Rectangle[id=rect, x=0.0, y=0.0, width=57.0, height=77.0, fill=0xff0000ff, stroke=0x000000ff, strokeWidth=1.0], point = Point3D [x = 32.25031581547938, y = 16.283826594108973, z = 0.0], distance = 2015.307436087194]
+{"restaurantid":"1","customerid":"2","from":"T","length":"64","RTS":"0","t":"0.6180923655413442757","allDefault":false,"tableChanges":[{"tableId":"T8","color":"red","section":0}]}
+Executing request POST http://192.168.1.102:8080/tableservice/tables HTTP/1.1
+Write service >.... {"ctn":null,"restaurantid":"1","customerid":"2","from":"T","length":"64","t":"0.6180923655413442757","allDefault":false,"tableChanges":[{"tableId":"T8","color":"red","section":0}],"col":null,"rts":null,"customerId":"2"}
+----------------------------------------
+Status :: HTTP/1.1 200 
+Result true
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+TABLE
+0x808080ff
+[ClickEvent]: MouseEvent [source = AnchorPane[id=pnContent], target = Rectangle[id=rect, x=0.0, y=0.0, width=57.0, height=77.0, fill=0x808080ff, stroke=0x000000ff, strokeWidth=1.0], eventType = MOUSE_CLICKED, consumed = false, x = 727.0, y = 301.0, z = 0.0, button = PRIMARY, pickResult = PickResult [node = Rectangle[id=rect, x=0.0, y=0.0, width=57.0, height=77.0, fill=0x808080ff, stroke=0x000000ff, strokeWidth=1.0], point = Point3D [x = 17.124958059325934, y = 43.96856086384611, z = 0.0], distance = 2015.307436087194]
+{"restaurantid":"1","customerid":"2","from":"T","length":"64","RTS":"0","t":"0.-757490035327862403","allDefault":false,"tableChanges":[{"tableId":"T9","color":"gray","section":0}]}
+Executing request POST http://192.168.1.102:8080/tableservice/tables HTTP/1.1
+Write service >.... {"ctn":null,"restaurantid":"1","customerid":"2","from":"T","length":"64","t":"0.-757490035327862403","allDefault":false,"tableChanges":[{"tableId":"T9","color":"gray","section":0}],"col":null,"rts":null,"customerId":"2"}
+----------------------------------------
+Status :: HTTP/1.1 200 
+Result true
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+TABLE
+0xff0000ff
+[ClickEvent]: MouseEvent [source = AnchorPane[id=pnContent], target = Rectangle[id=rect, x=0.0, y=0.0, width=57.0, height=77.0, fill=0xff0000ff, stroke=0x000000ff, strokeWidth=1.0], eventType = MOUSE_CLICKED, consumed = false, x = 728.0, y = 301.0, z = 0.0, button = PRIMARY, clickCount = 2, pickResult = PickResult [node = Rectangle[id=rect, x=0.0, y=0.0, width=57.0, height=77.0, fill=0xff0000ff, stroke=0x000000ff, strokeWidth=1.0], point = Point3D [x = 17.829550547547512, y = 43.96856086384611, z = 0.0], distance = 2015.307436087194]
+{"restaurantid":"1","customerid":"2","from":"T","length":"64","RTS":"0","t":"0.9191044031357522315","allDefault":false,"tableChanges":[{"tableId":"T9","color":"red","section":0}]}
+Executing request POST http://192.168.1.102:8080/tableservice/tables HTTP/1.1
+Write service >.... {"ctn":null,"restaurantid":"1","customerid":"2","from":"T","length":"64","t":"0.9191044031357522315","allDefault":false,"tableChanges":[{"tableId":"T9","color":"red","section":0}],"col":null,"rts":null,"customerId":"2"}
+----------------------------------------
+Status :: HTTP/1.1 200 
+Result true
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+{"restaurantid":"1","customerid":"2","from":"T","length":"64","RTS":"0","t":"0.7588813801699700499","allDefault":true,"tableChanges":[{"tableId":"T8","color":"green","section":0},{"tableId":"T1","color":"green","section":0},{"tableId":"T2","color":"green","section":0},{"tableId":"T3","color":"green","section":0},{"tableId":"T9","color":"green","section":0},{"tableId":"T10","color":"green","section":0},{"tableId":"T21","color":"green","section":0},{"tableId":"T22","color":"green","section":0},{"tableId":"T23","color":"green","section":0},{"tableId":"T25","color":"green","section":0},{"tableId":"T26","color":"green","section":0},{"tableId":"T27","color":"green","section":0},{"tableId":"T28","color":"green","section":0},{"tableId":"T29","color":"green","section":0},{"tableId":"T30","color":"green","section":0},{"tableId":"T31","color":"green","section":0},{"tableId":"T32","color":"green","section":0},{"tableId":"T33","color":"green","section":0},{"tableId":"T34","color":"green","section":0},{"tableId":"T5","color":"green","section":0},{"tableId":"T6","color":"green","section":0},{"tableId":"T7","color":"green","section":0},{"tableId":"T13","color":"green","section":0},{"tableId":"T15","color":"green","section":0},{"tableId":"T12","color":"green","section":0},{"tableId":"T14","color":"green","section":0},{"tableId":"T11","color":"green","section":0},{"tableId":"T24","color":"green","section":0},{"tableId":"T35","color":"green","section":0},{"tableId":"T36","color":"green","section":0},{"tableId":"T37","color":"green","section":0},{"tableId":"T38","color":"green","section":0},{"tableId":"T45","color":"green","section":0},{"tableId":"T46","color":"green","section":0},{"tableId":"T47","color":"green","section":0},{"tableId":"T48","color":"green","section":0},{"tableId":"T55","color":"green","section":0},{"tableId":"T54","color":"green","section":0},{"tableId":"T53","color":"green","section":0},{"tableId":"T56","color":"green","section":0},{"tableId":"T57","color":"green","section":0},{"tableId":"T58","color":"green","section":0},{"tableId":"T59","color":"green","section":0},{"tableId":"T60","color":"green","section":0},{"tableId":"T61","color":"green","section":0},{"tableId":"T62","color":"green","section":0},{"tableId":"T63","color":"green","section":0},{"tableId":"T16","color":"green","section":0},{"tableId":"T17","color":"green","section":0},{"tableId":"T18","color":"green","section":0},{"tableId":"T19","color":"green","section":0},{"tableId":"T20","color":"green","section":0},{"tableId":"T39","color":"green","section":0},{"tableId":"T40","color":"green","section":0},{"tableId":"T41","color":"green","section":0},{"tableId":"T42","color":"green","section":0},{"tableId":"T43","color":"green","section":0},{"tableId":"T44","color":"green","section":0},{"tableId":"T49","color":"green","section":0},{"tableId":"T50","color":"green","section":0},{"tableId":"T51","color":"green","section":0},{"tableId":"T52","color":"green","section":0},{"tableId":"T64","color":"green","section":0},{"tableId":"T4","color":"green","section":0}]}
+Executing request POST http://192.168.1.102:8080/tableservice/tables HTTP/1.1
+Write service >.... {"ctn":null,"restaurantid":"1","customerid":"2","from":"T","length":"64","t":"0.7588813801699700499","allDefault":true,"tableChanges":[{"tableId":"T8","color":"green","section":0},{"tableId":"T1","color":"green","section":0},{"tableId":"T2","color":"green","section":0},{"tableId":"T3","color":"green","section":0},{"tableId":"T9","color":"green","section":0},{"tableId":"T10","color":"green","section":0},{"tableId":"T21","color":"green","section":0},{"tableId":"T22","color":"green","section":0},{"tableId":"T23","color":"green","section":0},{"tableId":"T25","color":"green","section":0},{"tableId":"T26","color":"green","section":0},{"tableId":"T27","color":"green","section":0},{"tableId":"T28","color":"green","section":0},{"tableId":"T29","color":"green","section":0},{"tableId":"T30","color":"green","section":0},{"tableId":"T31","color":"green","section":0},{"tableId":"T32","color":"green","section":0},{"tableId":"T33","color":"green","section":0},{"tableId":"T34","color":"green","section":0},{"tableId":"T5","color":"green","section":0},{"tableId":"T6","color":"green","section":0},{"tableId":"T7","color":"green","section":0},{"tableId":"T13","color":"green","section":0},{"tableId":"T15","color":"green","section":0},{"tableId":"T12","color":"green","section":0},{"tableId":"T14","color":"green","section":0},{"tableId":"T11","color":"green","section":0},{"tableId":"T24","color":"green","section":0},{"tableId":"T35","color":"green","section":0},{"tableId":"T36","color":"green","section":0},{"tableId":"T37","color":"green","section":0},{"tableId":"T38","color":"green","section":0},{"tableId":"T45","color":"green","section":0},{"tableId":"T46","color":"green","section":0},{"tableId":"T47","color":"green","section":0},{"tableId":"T48","color":"green","section":0},{"tableId":"T55","color":"green","section":0},{"tableId":"T54","color":"green","section":0},{"tableId":"T53","color":"green","section":0},{"tableId":"T56","color":"green","section":0},{"tableId":"T57","color":"green","section":0},{"tableId":"T58","color":"green","section":0},{"tableId":"T59","color":"green","section":0},{"tableId":"T60","color":"green","section":0},{"tableId":"T61","color":"green","section":0},{"tableId":"T62","color":"green","section":0},{"tableId":"T63","color":"green","section":0},{"tableId":"T16","color":"green","section":0},{"tableId":"T17","color":"green","section":0},{"tableId":"T18","color":"green","section":0},{"tableId":"T19","color":"green","section":0},{"tableId":"T20","color":"green","section":0},{"tableId":"T39","color":"green","section":0},{"tableId":"T40","color":"green","section":0},{"tableId":"T41","color":"green","section":0},{"tableId":"T42","color":"green","section":0},{"tableId":"T43","color":"green","section":0},{"tableId":"T44","color":"green","section":0},{"tableId":"T49","color":"green","section":0},{"tableId":"T50","color":"green","section":0},{"tableId":"T51","color":"green","section":0},{"tableId":"T52","color":"green","section":0},{"tableId":"T64","color":"green","section":0},{"tableId":"T4","color":"green","section":0}],"col":null,"rts":null,"customerId":"2"}
+----------------------------------------
+Status :: HTTP/1.1 200 
+Result true
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+Update RTS
+{"restaurantid":"1","customerid":"2","from":"T","length":"64","RTS":"1","t":"0.84014633550994716","allDefault":true,"tableChanges":[{"tableId":"T8","color":"green","section":0},{"tableId":"T1","color":"green","section":0},{"tableId":"T2","color":"green","section":0},{"tableId":"T3","color":"green","section":0},{"tableId":"T9","color":"green","section":0},{"tableId":"T10","color":"green","section":0},{"tableId":"T21","color":"green","section":0},{"tableId":"T22","color":"green","section":0},{"tableId":"T23","color":"green","section":0},{"tableId":"T25","color":"green","section":0},{"tableId":"T26","color":"green","section":0},{"tableId":"T27","color":"green","section":0},{"tableId":"T28","color":"green","section":0},{"tableId":"T29","color":"green","section":0},{"tableId":"T30","color":"green","section":0},{"tableId":"T31","color":"green","section":0},{"tableId":"T32","color":"green","section":0},{"tableId":"T33","color":"green","section":0},{"tableId":"T34","color":"green","section":0},{"tableId":"T5","color":"green","section":0},{"tableId":"T6","color":"green","section":0},{"tableId":"T7","color":"green","section":0},{"tableId":"T13","color":"green","section":0},{"tableId":"T15","color":"green","section":0},{"tableId":"T12","color":"green","section":0},{"tableId":"T14","color":"green","section":0},{"tableId":"T11","color":"green","section":0},{"tableId":"T24","color":"green","section":0},{"tableId":"T35","color":"green","section":0},{"tableId":"T36","color":"green","section":0},{"tableId":"T37","color":"green","section":0},{"tableId":"T38","color":"green","section":0},{"tableId":"T45","color":"green","section":0},{"tableId":"T46","color":"green","section":0},{"tableId":"T47","color":"green","section":0},{"tableId":"T48","color":"green","section":0},{"tableId":"T55","color":"green","section":0},{"tableId":"T54","color":"green","section":0},{"tableId":"T53","color":"green","section":0},{"tableId":"T56","color":"green","section":0},{"tableId":"T57","color":"green","section":0},{"tableId":"T58","color":"green","section":0},{"tableId":"T59","color":"green","section":0},{"tableId":"T60","color":"green","section":0},{"tableId":"T61","color":"green","section":0},{"tableId":"T62","color":"green","section":0},{"tableId":"T63","color":"green","section":0},{"tableId":"T16","color":"green","section":0},{"tableId":"T17","color":"green","section":0},{"tableId":"T18","color":"green","section":0},{"tableId":"T19","color":"green","section":0},{"tableId":"T20","color":"green","section":0},{"tableId":"T39","color":"green","section":0},{"tableId":"T40","color":"green","section":0},{"tableId":"T41","color":"green","section":0},{"tableId":"T42","color":"green","section":0},{"tableId":"T43","color":"green","section":0},{"tableId":"T44","color":"green","section":0},{"tableId":"T49","color":"green","section":0},{"tableId":"T50","color":"green","section":0},{"tableId":"T51","color":"green","section":0},{"tableId":"T52","color":"green","section":0},{"tableId":"T64","color":"green","section":0},{"tableId":"T4","color":"green","section":0}]}
+Executing request POST http://192.168.1.102:8080/tableservice/tables HTTP/1.1
+Write service >.... {"ctn":null,"restaurantid":"1","customerid":"2","from":"T","length":"64","t":"0.84014633550994716","allDefault":true,"tableChanges":[{"tableId":"T8","color":"green","section":0},{"tableId":"T1","color":"green","section":0},{"tableId":"T2","color":"green","section":0},{"tableId":"T3","color":"green","section":0},{"tableId":"T9","color":"green","section":0},{"tableId":"T10","color":"green","section":0},{"tableId":"T21","color":"green","section":0},{"tableId":"T22","color":"green","section":0},{"tableId":"T23","color":"green","section":0},{"tableId":"T25","color":"green","section":0},{"tableId":"T26","color":"green","section":0},{"tableId":"T27","color":"green","section":0},{"tableId":"T28","color":"green","section":0},{"tableId":"T29","color":"green","section":0},{"tableId":"T30","color":"green","section":0},{"tableId":"T31","color":"green","section":0},{"tableId":"T32","color":"green","section":0},{"tableId":"T33","color":"green","section":0},{"tableId":"T34","color":"green","section":0},{"tableId":"T5","color":"green","section":0},{"tableId":"T6","color":"green","section":0},{"tableId":"T7","color":"green","section":0},{"tableId":"T13","color":"green","section":0},{"tableId":"T15","color":"green","section":0},{"tableId":"T12","color":"green","section":0},{"tableId":"T14","color":"green","section":0},{"tableId":"T11","color":"green","section":0},{"tableId":"T24","color":"green","section":0},{"tableId":"T35","color":"green","section":0},{"tableId":"T36","color":"green","section":0},{"tableId":"T37","color":"green","section":0},{"tableId":"T38","color":"green","section":0},{"tableId":"T45","color":"green","section":0},{"tableId":"T46","color":"green","section":0},{"tableId":"T47","color":"green","section":0},{"tableId":"T48","color":"green","section":0},{"tableId":"T55","color":"green","section":0},{"tableId":"T54","color":"green","section":0},{"tableId":"T53","color":"green","section":0},{"tableId":"T56","color":"green","section":0},{"tableId":"T57","color":"green","section":0},{"tableId":"T58","color":"green","section":0},{"tableId":"T59","color":"green","section":0},{"tableId":"T60","color":"green","section":0},{"tableId":"T61","color":"green","section":0},{"tableId":"T62","color":"green","section":0},{"tableId":"T63","color":"green","section":0},{"tableId":"T16","color":"green","section":0},{"tableId":"T17","color":"green","section":0},{"tableId":"T18","color":"green","section":0},{"tableId":"T19","color":"green","section":0},{"tableId":"T20","color":"green","section":0},{"tableId":"T39","color":"green","section":0},{"tableId":"T40","color":"green","section":0},{"tableId":"T41","color":"green","section":0},{"tableId":"T42","color":"green","section":0},{"tableId":"T43","color":"green","section":0},{"tableId":"T44","color":"green","section":0},{"tableId":"T49","color":"green","section":0},{"tableId":"T50","color":"green","section":0},{"tableId":"T51","color":"green","section":0},{"tableId":"T52","color":"green","section":0},{"tableId":"T64","color":"green","section":0},{"tableId":"T4","color":"green","section":0}],"col":null,"rts":null,"customerId":"2"}
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+----------------------------------------
+Status :: HTTP/1.1 200 
+Result true
+Staff Section:null
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Staff Section:null
+=== Broadcast Thread - stoped ===
+>>>>>>> Restart Broadcast Thread >>>>>>>
+>>>> PingResponse
+=== Broadcast Thread started!
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:1
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:2
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+>>>> PingResponse
+Executing request GET http://192.168.1.102:8080/tableservice/ping HTTP/1.1
+Using interface eth1 (192.168.1.102)
+Broadcasting "192.168.1.102" ntry:3
+^C

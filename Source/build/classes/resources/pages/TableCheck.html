@@ -1,0 +1,261 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>TableCheck</title>
+<link rel="stylesheet" href="static/bootstrap.min.css" />
+<link rel="stylesheet" href="static/datepicker.css" />
+<style>
+body {
+	width: 100%;
+	align: center;
+}
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<center>
+				<img src="static/tablecheck.png" align="top" />
+			</center>
+		</div>
+		<div class="row">
+			<center>
+				<h1>TableCheck Tracking Data Downloader</h1>
+			</center>
+			<center>
+				<h4>Data is on the server and deleted after 90 days</h4>
+			</center>
+		</div>
+		<div class="row">
+			<center>
+				<label id="messageLyr" style="color: red"></label>
+			</center>
+		</div>
+		<div class="row">
+			<div class="col-lg-3"></div>
+			<div class="col-lg-9">
+				Save data file to:
+				<div class="row">
+					<div class="col-lg-3 radio">
+						<label><input name="saveto" type="radio" value="file"
+							checked="checked" /> Folder</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-3 radio">
+						<label><input name="saveto" type="radio" value="mail">
+							Email Address</label>
+					</div>
+					<div class="col-lg-6">
+						<input id="email" name="email" type="email" class="form-control" />
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<center>
+				<h2>Date range of data to be downloaded:</h2>
+			</center>
+			<center>
+				<h4>(Each day will be a different dated file)</h4>
+			</center>
+		</div>
+		<div class="row">
+			<div class="col-lg-2"></div>
+			<div class="col-lg-4">
+				<label>Begin Date<br /> <font style="font-weight: normal;">(No
+						more then 90 days ago)</font></label><input class="form-control" id="startDt"
+					name="startDt" placeholder="Start Date" type="datetime-local">
+			</div>
+			<div class="col-lg-4">
+				<label>End Date<br /> <font style="font-weight: normal;">(Latest
+						possible end date is today's date)</font></label><input class="form-control"
+					id="endDt" name="endDt" placeholder="End Date"
+					type="datetime-local">
+			</div>
+		</div>
+		<br> <br>
+		<div class="row" align="center">
+			<div class="col-lg-4 form-group">
+				<label>Download wait staff change log:</label> <a id="staffLog"
+					href="#" onclick="downloadStaffLog();" target="block">
+					<button class="btn btn-primary btn-block">Download Staff
+						Change</button>
+				</a>
+			</div>
+			<div class="col-lg-4">
+				<label>Download table state change log:</label> <a id="tableLog"
+					href="#" onclick="downloadTableLog();" target="block">
+					<button class="btn btn-primary btn-block">Download Table
+						Change</button>
+				</a>
+			</div>
+			<div class="col-lg-4">
+				<label>Download both change logs:</label> <a id="stafftableLog"
+					href="#" onclick="downloadTableStaffLog();" target="block"
+					download="stafftablelogs.zip">
+					<button class="btn btn-primary btn-block">Download Both
+						Change</button>
+				</a>
+			</div>
+		</div>
+		<!-- <div class="row" align="center">
+			<div class="col-lg-3"></div>
+			<div class="col-lg-4">
+				<label for="dayHr" class="control-label">Select start of day
+					hour, if not midnight:
+					<p>
+						<font style="font-weight: normal;">(Valid options are 0 to
+							23 for a 24 hour day)</font>
+				</label>
+			</div>
+			<div class="col-lg-3" align="left">
+				<input id="dayHr" name="dayHr"
+					style="width: 50px; vertical-align: top;" type="number">
+			</div>
+		</div> -->
+	</div>
+	<script src="static/jquery.min.js"></script>
+	<script src="static/config.js"></script>
+	<script src="static/bootstrap-datepicker.js"></script>
+	<script>
+		$(function() {
+			//alert(window.location.hostname);
+			remoteIP = "http://" + window.location.hostname
+					+ ":8080/tableservice/";
+			$('#startDt').datepicker({
+				format : 'mm-dd-yyyy'
+			});
+			$('#endDt').datepicker({
+				format : 'mm-dd-yyyy'
+			});
+		});
+		function consUrl() {
+			url = "/" + $('#startDt').val() + "/" + $('#endDt').val();
+			if ($('#email').val() !== "")
+				url = url + "?email=" + $('#email').val();
+			return url;
+		}
+		function email(url) {
+			$.get(url, function(data) {
+				if (data === false) {
+					$("#messageLyr").html("Email Sending Failed");
+				} else {
+					$("#messageLyr").html("Email Sent");
+				}
+			});
+		}
+		function downloadStaffLog() {
+			if (!validate()) {
+				return false;
+			}
+			if ($('input[name="saveto"]:checked').val() === "mail"
+					&& $('#email').val() !== "") {
+				url = remoteIP + 'logs/email/staff' + consUrl();
+				email(url);
+			} else {
+				url = remoteIP + 'logs/staff' + consUrl();
+				$('#staffLog').attr('href', url);
+				$('#staffLog').click();
+			}
+		}
+		function downloadTableLog() {
+			if (!validate()) {
+				return null;
+			}
+			if ($('input[name="saveto"]:checked').val() === "mail"
+					&& $('#email').val() !== "") {
+				url = remoteIP + 'logs/email/table' + consUrl();
+				email(url);
+			} else {
+				url = remoteIP + 'logs/table' + consUrl();
+				$('#tableLog').attr('href', url);
+				$('#tableLog').click();
+			}
+		}
+		function downloadTableStaffLog() {
+			if (!validate()) {
+				return null;
+			}
+			if ($('input[name="saveto"]:checked').val() === "mail"
+					&& $('#email').val() !== "") {
+				url = remoteIP + 'logs/email/all' + consUrl();
+				email(url);
+			} else {
+				url = remoteIP + 'logs/all' + consUrl();
+				$('#stafftableLog').attr('href', url);
+				$('#stafftableLog').click();
+			}
+		}
+		function setTime() {
+			var timeVal = $('#setTime').val();
+			$.post(remoteIP + 'time', timeVal, function(data) {
+				alert("Time set");
+			});
+		}
+		function readTime() {
+			$.get(remoteIP + 'time', function(data) {
+				alert(data);
+				$("#setTime").val(data);
+			}).fail(function(response) {
+				alert(JSON.stringify(response));
+			});
+		}
+		function download(filename, text) {
+			var element = document.createElement('a');
+			element.setAttribute('href', 'data:text/plain;charset=utf-8,'
+					+ encodeURIComponent(text));
+			element.setAttribute('download', filename);
+			element.style.display = 'none';
+			document.body.appendChild(element);
+			element.click();
+			document.body.removeChild(element);
+		}
+		function downloadStaffLog1() {
+			if ($('#getTime').val() == "") {
+				alert("Select Date to download");
+				return null;
+			}
+			url = remoteIP + 'stafflogs/' + $('#getTime').val();
+			$('#staffLog').attr('href', url);
+			$('#staffLog').click();
+			/* $.get(url, function(data) {
+			   console.log(data.data);
+			   download('StaffLog.txt', data.data);
+			});*/
+		}
+		function downloadTableLog1() {
+			if ($('#getTime').val() == "") {
+				alert("Select Date to download");
+				return null;
+			}
+			url = remoteIP + 'tablelogs/' + $('#getTime').val();
+			$('#tableLog').attr('href', url);
+			$('#tableLog').click();
+			/* $.get(url, function(data) {
+			   console.log(data.data);
+			   download('TableLog.txt', data.data);
+			 });*/
+		}
+		function validate() {
+			if ($('input[name="saveto"]:checked').val() !== "mail") {
+				$('#email').val("");
+			}
+			if ($('input[name="saveto"]:checked').val() === "mail"
+					&& $('#email').val() === "") {
+				alert("Enter Email address to send mail");
+				return false;
+			} else if ($('#startDt').val() === "") {
+				alert("Enter beginning date");
+				return false;
+			} else if ($('#endDt').val() === "") {
+				//alert("Enter End Date");
+				//return false;
+			}
+			return true;
+		}
+	</script>
+</body>
+,
+</html>

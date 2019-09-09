@@ -1,0 +1,14 @@
+
+/* Table context menu */
+
+.cmb-section:disabled, .cmb-section:disabled * {
+    -fx-opacity: 0.75;
+    -fx-text-fill: black;
+}
+
+.button:disabled, .button:disabled * {
+    -fx-opacity: 0.75;
+    /*-fx-background-color: #1d1d1d;*/
+    -fx-text-fill: black;
+}
+/* End table context menu */
