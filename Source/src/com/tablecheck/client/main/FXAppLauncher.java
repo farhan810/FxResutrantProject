@@ -7,6 +7,6 @@ public class FXAppLauncher {
     	Main.main(args);
        // is Reached ip   
     // >>>>>>> PingResponse Error	
-    	
+    	System.out.println("demo");
     }
 }
